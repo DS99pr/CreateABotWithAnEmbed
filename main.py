@@ -26,4 +26,4 @@ async def embedCommand(ctx: commands.Context): # for the explanation of "command
    await ctx.send(embed=embed) # sending embed to channel
    # after executing the "?embed" command, the bot responds with that embed, if it has "message_content" intentions assigned.
 
-@bot.run("token") # replace the "token" with your token from the "Bot" tab in the Discord Developers Portal, and give it here (as a string), remember not to share it with ANYONE
+bot.run("token") # replace the "token" with your token from the "Bot" tab in the Discord Developers Portal, and give it here (as a string), remember not to share it with ANYONE
